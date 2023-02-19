@@ -24,3 +24,7 @@
             "__v": 0
         },
 ```
+
+**It also returns robots placeholder images as well as dummy name, age, email, username, height e.t.c**
+
+![Robot](https://robohash.org/hicveldicta.png)
