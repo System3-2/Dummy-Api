@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const { getAllData } = require('../controllers/app');
+const { getAllData, getSingleTasks } = require('../controllers/app');
 
 router.route("/").get(getAllData);
-
+router.route('/:id').get(getSingleTasks)
 module.exports = router;
