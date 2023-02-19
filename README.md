@@ -1,7 +1,7 @@
 ### Dummy API
 
 **This is a dummy api that returns a list of data in json format**
-
+**[API ENDPOINT](https://dummy-api-e7yq.onrender.com/api/v1/app)**
 ```
   {
             "_id": "63f1616c6bcb6e23a9232e89",
