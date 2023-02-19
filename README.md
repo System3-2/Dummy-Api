@@ -1,8 +1,8 @@
 ### Dummy API
 
-1. **This is a dummy api that returns a list of data in json format**
+* **This is a dummy api that returns a list of data in json format**
 
-2. **[API ENDPOINT](https://dummy-api-e7yq.onrender.com/api/v1/app)**
+* **[API ENDPOINT](https://dummy-api-e7yq.onrender.com/api/v1/app)**
 
 ```
   {
