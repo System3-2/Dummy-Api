@@ -88,7 +88,7 @@
       <h3 class="text-start fs-2 fw-bolder font-sans-serif">Test Route Example</h3>
 
       <div class="bg-dark text-light p-4 m-4 rounded-2 col-10" id="howitworks">
-        <p class="fw-bolder ">fetch('https://dummy-api-e7yq.onrender.com/api/v1/app', {
+        <p class="fw-bolder ">fetch('/api/v1/app', {
           method: 'GET', /* or POST/PUT/PATCH/DELETE */
           })</p>
         <p class="fw-bolder ">.then(res => res.json())
@@ -129,7 +129,7 @@
       <h3 class="text-start fs-2 fw-bolder font-sans-serif">Limit Example</h3>
 
       <div class="bg-dark text-light p-4 m-4 rounded-2 col-10">
-        <p class="fw-bolder ">fetch('https://dummy-api-e7yq.onrender.com/api/v1/app?limit=50', {
+        <p class="fw-bolder ">fetch('/api/v1/app?limit=50', {
           method: 'GET', /* or POST/PUT/PATCH/DELETE */
           })</p>
         <p class="fw-bolder ">.then(res => res.json())
@@ -155,7 +155,7 @@
         <div class="justify-content-center align-items-center col-12 mt-4 fw-bold">
           <p>
             You can fetch all users using this route <span
-              class="text-success font-bolder">`https://dummy-api-e7yq.onrender.com/api/v1/app`</span>,
+              class="text-success font-bolder">`/api/v1/app`</span>,
             which return a json data including robots placeholder images as well as dummy name, age, email, username,
             height e.t.c
           </p>
@@ -171,7 +171,7 @@
       <h3 class="text-start fs-2 fw-bolder font-sans-serif">Get All Users Example</h3>
 
       <div class="bg-dark text-light p-4 m-4 rounded-2 col-10">
-        <p class="fw-bolder ">fetch('https://dummy-api-e7yq.onrender.com/api/v1/app', {
+        <p class="fw-bolder ">fetch('/api/v1/app', {
           method: 'GET', /* or POST/PUT/PATCH/DELETE */
           })</p>
         <p class="fw-bolder ">.then(res => res.json())
@@ -199,7 +199,7 @@
         <div class="justify-content-center align-items-center col-12 mt-4 fw-bold">
           <p>
             You can fetch single user using this route <span
-              class="text-success font-bolder">`https://dummy-api-e7yq.onrender.com/api/v1/app/{:id}`</span>,
+              class="text-success font-bolder">`/api/v1/app/{:id}`</span>,
             which return a single json data including robots placeholder images as well as dummy name, age, email,
             username,
             height e.t.c
@@ -216,7 +216,7 @@
       <h3 class="text-start fs-2 fw-bolder font-sans-serif">Get Single user Example</h3>
 
       <div class="bg-dark text-light p-4 m-4 rounded-2 col-10">
-        <p class="fw-bolder ">fetch('https://dummy-api-e7yq.onrender.com/api/v1/app/:{id}', {
+        <p class="fw-bolder ">fetch('/api/v1/app/:{id}', {
           method: 'GET', /* or POST/PUT/PATCH/DELETE */
           })</p>
         <p class="fw-bolder ">.then(res => res.json())
@@ -244,7 +244,7 @@
         <div class="justify-content-center align-items-center col-12 mt-4 fw-bold">
           <p>
             You can fetch single user using this route <span
-              class="text-success font-bolder">`https://dummy-api-e7yq.onrender.com/api/v1/app/?{query-params}`</span>,
+              class="text-success font-bolder">`/api/v1/app/?{query-params}`</span>,
             which return a single json data including robots placeholder images as well as dummy name, age, email,
             username,
             height e.t.c
@@ -261,7 +261,7 @@
       <h3 class="text-start fs-2 fw-bolder font-sans-serif">Querying  Example</h3>
 
       <div class="bg-dark text-light p-4 m-4 rounded-2 col-10">
-        <p class="fw-bolder ">fetch('https://dummy-api-e7yq.onrender.com/api/v1/app/?gender=female,firstName=Terry,lastName=Medhurst', {
+        <p class="fw-bolder ">fetch('/api/v1/app/?gender=female,firstName=Terry,lastName=Medhurst', {
           method: 'GET', /* or POST/PUT/PATCH/DELETE */
           })</p>
         <p class="fw-bolder ">.then(res => res.json())
