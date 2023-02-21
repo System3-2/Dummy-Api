@@ -2,7 +2,11 @@
 
 * **This is a dummy api that returns a list of data in json format**
 
+* **[API ENDPOINT](https://inquisitive-leggings-slug.cyclic.app/)**
+### OR
+
 * **[API ENDPOINT](https://dummy-api-e7yq.onrender.com/api/v1/app)**
+
 
 ```
   {
